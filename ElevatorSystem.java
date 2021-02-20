@@ -1,5 +1,16 @@
 /**
  * 708. Elevator system - OO Design
+ * 题目：为一栋大楼设计电梯系统
+ * 不需要考虑超重的情况
+ * 该电梯系统目前只有1台电梯, 该楼共有n层
+ * 每台电梯有三种状态：上升，下降，空闲
+ * 当电梯往一个方向移动时，在电梯内无法按反向的楼层
+ * 我们提供了其他几个已经实现好的类，你只需要实现Elevator Class内的部分函数即可。
+ * 注意：
+ * Currently elevator status is : DOWN.
+ * 是指现在正在执行 down stop list里的命令
+ * Currently elevator status is : UP.
+ * 是指现在正在执行 up stop list里的命令
  * <p>
  * Design a elevator system for a building
  * <p>
