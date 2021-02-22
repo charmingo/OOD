@@ -70,7 +70,7 @@ public class Hotel {
 	{
 		for(Room room : reservation.getRooms())
         {
-                    room.cancelReservation(reservation);
+        	room.cancelReservation(reservation);
         }
 	}
 	
