@@ -1,6 +1,6 @@
 public class Hotel {
     public static final int DAY = 1*24*60*60*1000;
-    
+	
 	private List<Room> rooms;
 	private LRUCache cache;
 	
@@ -46,7 +46,7 @@ public class Hotel {
 		
 		for(Room room : reservation.getRooms())
 		{
-            room.makeReservation(search);
+			room.makeReservation(search);
 		}
 		
 		return reservation;
