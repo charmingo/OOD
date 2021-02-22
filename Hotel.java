@@ -65,13 +65,13 @@ public class Hotel {
 		
 		return res;
 	}
-	
+
 	public void cancelReservation(Reservation reservation)
 	{
 		for(Room room : reservation.getRooms())
-        {
-        	room.cancelReservation(reservation);
-        }
+		{
+			room.cancelReservation(reservation);
+		}
 	}
 	
 	public List<Room> getRooms()
