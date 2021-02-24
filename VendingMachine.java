@@ -17,6 +17,8 @@
  * Current selection is: null, current inserted money: 0, current state is : NoSelection
  */
 
+// https://javarevisited.blogspot.com/2016/06/design-vending-machine-in-java.html#axzz6nLrXdLvD
+
 public class VendingMachine {
     private String currentSelectedItem;
     private int currentInsertedMoney;
