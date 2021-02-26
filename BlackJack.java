@@ -52,15 +52,12 @@ public class BlackJack {
     }
     
     public void dealInitialCards() {
-        for (NormalPlayer player : players) {
-            player.insertCard(dealNextCard());
+        for (int i = 0; i < 2; i++) {
+            for (NormalPlayer player : players) {
+                player.insertCard(dealNextCard());
+            }
+            dealer.insertCard(dealNextCard());
         }
-        dealer.insertCard(dealNextCard());
-        
-        for (NormalPlayer player : players) {
-            player.insertCard(dealNextCard());
-        }
-        dealer.insertCard(dealNextCard());
     }
     
     public Card dealNextCard() {
